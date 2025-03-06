@@ -1,0 +1,49 @@
+.infiniteSlideX {
+    animation: slide 40s linear infinite;
+}
+
+.infiniteSlideX:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.circleGola::before,
+.circleGola::after {
+    content: "";
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    background: linear-gradient(#FA1E00, #FA5300);
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.circleGola::before {
+    top: 3em;
+    left: 3%;
+}
+
+.circleGola::after {
+    top: 55%;
+    left: 70%;
+}
+
+.inside {
+    z-index: 9;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    backdrop-filter: blur(2.5rem);
+    /* box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.1); */
+}

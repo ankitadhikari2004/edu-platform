@@ -1,0 +1,1 @@
+export const server = 'https://educates.onrender.com/api';
