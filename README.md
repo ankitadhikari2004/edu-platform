@@ -50,8 +50,8 @@ Educate is a comprehensive learning platform designed to provide students with a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/BlackShort/educate.git
-   cd educate
+   git clone https://github.com/ankitadhikari2004/edu-platform.git
+   cd edu-platform
    ```
 
 2. Install server dependencies:
